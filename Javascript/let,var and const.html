@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let,var and const ki kahani</title>
+</head>
+<body>
+    <script>
+    const accountId = 123456
+    let accountEmail = "rits@google.com"
+    var accoundPassword = "12345"
+    accountCity = "Mumbai"
+
+   // accountId = 2  //not allowed (const value does not changed after one time declaration )
+    accountEmail = "riya123@google.com" //allowed
+    accountPassword = "456"  //allowed
+    accountCity = "Jaipur"  //allowed
+
+    // console.log(accountId) //123456
+    // console.log(accountEmail) //riya123@google.com
+    // console.log(accountPassword)//456
+    // console.log(accountCity) //Jaipur
+
+    let accountState;
+    // console.log(accountState) // undefine
+
+    console.table[accountId,accountPassword,accountEmail,accountCity,accountState] // gives output in the form of table
+</script>
+</body>
+</html>
