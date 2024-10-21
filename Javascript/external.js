@@ -1,1 +1,0 @@
-alert("script is placed in external js");
