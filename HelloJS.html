@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>add js in different ways</title>
+   <script src="external.js"></script>     <!-- external javascript -->  
+</head>
+<body>
+    <h1 onclick="alert('hello world')">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab inventore, error veniam mollitia aliquid tempore? Cumque quis sequi cupiditate qui, hic, tenetur amet magni at minima, quos dicta dolor veritatis?</h1>
+    <!-- inline javascript -->
+    <script>
+         alert("script is placed in body tag");
+      </script>  <!-- internal javascript -->
+</body>
+    <script>
+        alert("script is placed outside body tag");
+    </script>
+</html>
+
+
+<!-- In JavaScript there is no priority given to any (inline,internal,external) JavaScript...... They work as which one is defined first, it executed line by line..--> 
